@@ -16,14 +16,15 @@
     <img src="https://raw.githubusercontent.com/Azure/azure-quickstart-templates/master/1-CONTRIBUTION-GUIDE/images/visualizebutton.png"/>
 </a>
 
-The base of the template i got from GitHUB, for the assignment from Sentia. 
+The base of the templates i got from GitHUB, for the assignment off Sentia. 
 
 =====================
-This template allows you to deploy a VM Scale Set of Windows VMs with a custom script run on each VM. It uses the latest patched version of several Windows versions. To connect from the load balancer to a VM in the scale set, you would go to the Azure Portal, find the load balancer of your scale set, examine the NAT rules, then connect using the NAT rule you want. For example, if there is a NAT rule on port 50000, you could RDP on port 50000 of the public IP to connect to that VM:
+
+The template that i have used for this assignment allows you to deplpoy a VM Scale set of Windows VM's with a custom script running on each VM. It uses the latest patched version of several Windows versions. To connect from the load balancer to a VM in the scale set, you would go to the Azure Portal, find the load balancer of your scale set, examine the NAT rules, then connect using the NAT rule you want. For example, if there is a NAT rule on port 50000, you could RDP on port 50000 of the public IP to connect to that VM:
 
 PARAMETER RESTRICTIONS
 ======================
 
-vmssName must be 3-61 characters in length. It should also be globally unique across all of Azure. If it isn't globally unique, it is possible that this template will still deploy properly, but we don't recommend relying on this pseudo-probabilistic behavior.
+vmssName must be 3-61 characters in length. It should also be globally unique across all of Azure. If it isn't globally unique, it is possible that this template will still deploy properly, but it is not recommended relying on this pseudo-probabilistic behavior.
 instanceCount must be 100 or less.
 
