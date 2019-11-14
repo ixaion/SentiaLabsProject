@@ -1,4 +1,4 @@
-# Deploy a VM Scale Set of Windows VMs with a custom script extension + Wordpress/DB inside
+# Deploy a VM Scale Set of Windows VMs with a custom script extension + Wordpress app/DB inside
 
 <IMG SRC="https://azurequickstartsservice.blob.core.windows.net/badges/201-vmss-custom-script-windows/PublicLastTestDate.svg" />&nbsp;
 <IMG SRC="https://azurequickstartsservice.blob.core.windows.net/badges/201-vmss-custom-script-windows/PublicDeployment.svg" />&nbsp;
