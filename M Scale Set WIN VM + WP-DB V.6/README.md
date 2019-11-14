@@ -16,7 +16,7 @@
     <img src="https://raw.githubusercontent.com/Azure/azure-quickstart-templates/master/1-CONTRIBUTION-GUIDE/images/visualizebutton.png"/>
 </a>
 
-The base of the templates i got from GitHUB, for the assignment from Sentia. 
+The base of the templates i got from GitHUB, for the assignment from Sentia. Please don't forget to read the IV-Architecture SentiaREC.V.1.0. file included in the email. 
 
 =====================
 
